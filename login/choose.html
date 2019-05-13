@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<style>
+  <link rel="stylesheet" type="text/css" href="button.css">
+input[type=text]:focus {
+  width:   400px;
+  color:	black;}
+.button{
+box-shadow : 0 8px 16px 0 rgba(o,o,o,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+font-size : 30px;
+background-color : rgba(149, 167, 177, 1);
+color : black;
+text-align : center;
+border-radius : 12px;
+}
+</style>
+</head>
+<body>
+
+<div class="But-container"align="center">
+<div class="But-show-inline-block">
+<div class="But-bar">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+Name:<input type="text" id="textid" name="textid"></input>
+<button class="ui inverted blue button" id="pay_fee" name="pay_fee">Pay Fee</button>
+<button class="ui inverted blue button" id="view_details" name="view_details">View Details</button>
+<script
+document.getElementById("pay_fee").addEventListener("click", function(){
+  document.getElementById("textid").innerHTML = "Hello World";
+});
+</script>
+<body style="background-color:light blue;">
+</div>
+</div>
+</div>
+</head>
+</html>
